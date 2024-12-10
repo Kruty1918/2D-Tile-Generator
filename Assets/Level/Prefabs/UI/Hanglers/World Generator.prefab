@@ -1,0 +1,307 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4215393817981333605
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4215393817981333603}
+  - component: {fileID: 4215393817981333602}
+  m_Layer: 0
+  m_Name: World Generator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4215393817981333603
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4215393817981333605}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4215393817981333602
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4215393817981333605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac445069e7d432349afe9a445c5cbdda, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  worldSize: 0
+  tilePrefabs:
+  - tilePrefabs:
+    - prefab: {fileID: 5656094430961857868, guid: 7bb8877967252dd4aadd5ab5be34ddea, type: 3}
+      weight: 0.7
+    - prefab: {fileID: 8925379075604919545, guid: 27559a6a0a2e95644b6a840bf6f7043f, type: 3}
+      weight: 0.2
+    - prefab: {fileID: 1064041096347173332, guid: 7d28ba8d933c5bf4d88950e66db9907b, type: 3}
+      weight: 0.2
+    level: 0.22
+    chance: 1
+  - tilePrefabs:
+    - prefab: {fileID: 7707173006938765325, guid: 3c54c8c23d37c8347a2f7e116cd4b1fe, type: 3}
+      weight: 0.9
+    - prefab: {fileID: 8447390442047750650, guid: 7c3b7032798a34546b24bc19a1d153dc, type: 3}
+      weight: 0.1
+    - prefab: {fileID: 7537687308324030553, guid: cabadd8f06240c144b71845ebe7022a9, type: 3}
+      weight: 0.1
+    level: 0.43
+    chance: 1
+  - tilePrefabs:
+    - prefab: {fileID: 5794738066448864690, guid: 775adc08b9d46d94caf3abe0f2014451, type: 3}
+      weight: 0.9
+    - prefab: {fileID: 8090179284428525953, guid: a80b0a5d816061141b30bfadc146b429, type: 3}
+      weight: 0.1
+    - prefab: {fileID: 3318602156590169872, guid: 0a4c7c2ec6fa47c438947e5e354808db, type: 3}
+      weight: 0.1
+    level: 0.5
+    chance: 1
+  - tilePrefabs:
+    - prefab: {fileID: 5875258017091764031, guid: 7b4992b45f5f37f48b77f1436c7c27b6, type: 3}
+      weight: 1
+    level: 0.6
+    chance: 1
+  - tilePrefabs:
+    - prefab: {fileID: 804199476088881253, guid: 752964b4d6a3b83419c83530c40a7556, type: 3}
+      weight: 1
+    level: 0.7
+    chance: 1
+  - tilePrefabs:
+    - prefab: {fileID: 3877851106577658797, guid: e22eb94a8e873ed4ab732e742f54eda3, type: 3}
+      weight: 1
+    level: 0.8
+    chance: 1
+  - tilePrefabs:
+    - prefab: {fileID: 7878063143828382552, guid: 150a25fc1674ce744b7c7b43cd854f1a, type: 3}
+      weight: 0.7
+    level: 1
+    chance: 1
+  envPrefabs:
+  - tilePrefabs:
+    - prefab: {fileID: 4668976488051168922, guid: fe3cc52b00347724ea748f98aa648e9f, type: 3}
+      weight: 0.1
+    - prefab: {fileID: 6530668759775135460, guid: 252e1a49b58f8164b9972151e687271a, type: 3}
+      weight: 0.1
+    - prefab: {fileID: 2750096715509081910, guid: db568f8841bfbb04b920bd312b0340f7, type: 3}
+      weight: 0.1
+    - prefab: {fileID: 1199767096213786766, guid: 2f2aef81d36dd6344b4858519036d2c1, type: 3}
+      weight: 0.1
+    - prefab: {fileID: 6908547692672990652, guid: 24218e1c963e2734e96aacc649106b79, type: 3}
+      weight: 0.2
+    - prefab: {fileID: 4262812638613812430, guid: c3344a5a3ac399b44b6f58cf35a0fc6b, type: 3}
+      weight: 0.2
+    - prefab: {fileID: 5690623674405500762, guid: c943dc7369948db4fbf41f5e76b7e63c, type: 3}
+      weight: 0.2
+    - prefab: {fileID: 3739641144676072851, guid: 58c00c14897ab36479cbee80a9108744, type: 3}
+      weight: 0.2
+    - prefab: {fileID: 3670074821628595528, guid: a5dff7b06bf055b47ab3945a2bdecad6, type: 3}
+      weight: 0.3
+    - prefab: {fileID: 4476938621074618344, guid: c883b482099a4a34e85775b7c59b90f6, type: 3}
+      weight: 0.3
+    - prefab: {fileID: 7851982224974803974, guid: 12a2e1c0ea123d548a5112fab8a17af8, type: 3}
+      weight: 0.3
+    - prefab: {fileID: 3988089964869459256, guid: f07b6b700198da343aa6d7cd6dc76643, type: 3}
+      weight: 0.3
+    - prefab: {fileID: 5035790525931386116, guid: ef242dd03940357409418941c029ff5b, type: 3}
+      weight: 0.3
+    - prefab: {fileID: 1648045275857102893, guid: 462a91c3346a64648a73b660bab424b0, type: 3}
+      weight: 0.4
+    - prefab: {fileID: 310982933364511806, guid: 5cf5e2dbd5933e746b061c093d3bf814, type: 3}
+      weight: 0.4
+    - prefab: {fileID: 1676552025080223885, guid: 29538dcd1c029a3428b4152e9600c821, type: 3}
+      weight: 0.4
+    - prefab: {fileID: 8017285597778991559, guid: 363616ebdbf66ef41abe06eee38e7873, type: 3}
+      weight: 0.4
+    - prefab: {fileID: 8502378406710089106, guid: 2b1c1edfe62bf0448ac500a75664aa39, type: 3}
+      weight: 0.5
+    - prefab: {fileID: 3174332917879644448, guid: c5d1bf3ec75cd8743adf6376c5c7a91f, type: 3}
+      weight: 0.5
+    - prefab: {fileID: 6674517422322297743, guid: 1c4564dec40b23d469e59caddf9a9a38, type: 3}
+      weight: 0.5
+    - prefab: {fileID: 2202563694409029047, guid: 5100ef67c74914b45b85c9fa3f2dbff7, type: 3}
+      weight: 0.1
+    level: 0.03
+    chance: 0.1
+  - tilePrefabs:
+    - prefab: {fileID: 4812671367026273476, guid: d124648ca89f35844adef928041403ff, type: 3}
+      weight: 0.1
+    - prefab: {fileID: 1871437586369832601, guid: 2e86d4d7190da184fa555a97ca37893c, type: 3}
+      weight: 0.1
+    - prefab: {fileID: 5841523433162366595, guid: 6081a9929710f5a4db0c5d911c91e7a2, type: 3}
+      weight: 0.4
+    - prefab: {fileID: 2557963864042575101, guid: 4ee56ec5c07f1ec4ebc09e404adce2ac, type: 3}
+      weight: 0.3
+    - prefab: {fileID: 1555691695950552795, guid: 27baab8395089da49b85774b6f55bb8d, type: 3}
+      weight: 0.3
+    - prefab: {fileID: 7255446538772807038, guid: 11b8251dd8c6e3849959f50e1ce7fb3e, type: 3}
+      weight: 0.3
+    - prefab: {fileID: 5467841440537920512, guid: 948f587197a91a7429eb3cb4a02b5c7b, type: 3}
+      weight: 0.1
+    level: 0.1
+    chance: 0.1
+  - tilePrefabs:
+    - prefab: {fileID: 7960007014769117887, guid: f16d5f16a3baa384bb6a643435292b56, type: 3}
+      weight: 0.1
+    - prefab: {fileID: 2874301469758927310, guid: b71ec80d5ae8fdf49ade44daae079c8a, type: 3}
+      weight: 0.4
+    - prefab: {fileID: 2918916843960941801, guid: 4b40253b1c62a4845b48edceaa80c942, type: 3}
+      weight: 0.4
+    - prefab: {fileID: 6387061781516283552, guid: ef928a242f834c54c88cdc12c93e4f3d, type: 3}
+      weight: 0.3
+    - prefab: {fileID: 6902857124172845726, guid: ae7d99c66341f024dbb07d1208de7c10, type: 3}
+      weight: 0.1
+    - prefab: {fileID: 9147304711716702210, guid: df9e1edeceb5857448f959695cdb3830, type: 3}
+      weight: 0.4
+    - prefab: {fileID: 723741944454210093, guid: f4f458c1e770e564abeb59b2f4280b8b, type: 3}
+      weight: 0.1
+    - prefab: {fileID: 2895898297655194144, guid: 0903cecdf7410e94c9ffd3cf1aab39b2, type: 3}
+      weight: 0.3
+    - prefab: {fileID: 4623356955199579925, guid: 573cab2f9cf2b3142b7699af7a2ad6c5, type: 3}
+      weight: 0.3
+    - prefab: {fileID: 3907971555501450014, guid: c615f886aa6a47945b07dd3bbb43d758, type: 3}
+      weight: 0.1
+    - prefab: {fileID: 3757837002829182499, guid: 60834aed043040a41b0b104b661e447e, type: 3}
+      weight: 0.4
+    - prefab: {fileID: 584830779176293675, guid: 384ab1f92e6e63c4f8bc92930cf631b3, type: 3}
+      weight: 0.3
+    - prefab: {fileID: 8211764595297862436, guid: aac350944b26a7446adf49b5ae2842f6, type: 3}
+      weight: 0.1
+    level: 0.13
+    chance: 0.3
+  - tilePrefabs:
+    - prefab: {fileID: 5427615899877284323, guid: 534d0f34115f4f34db7a8b349f875a38, type: 3}
+      weight: 0.1
+    - prefab: {fileID: 4824194611361322650, guid: 78cd498ee12cf5140a2165a406b8c373, type: 3}
+      weight: 0.3
+    - prefab: {fileID: 2372851595058048948, guid: 0e482bb223d1ff24a9430ca998f3adfa, type: 3}
+      weight: 0.4
+    - prefab: {fileID: 6429444504944913531, guid: 1e653081de78b81478c8175618e62474, type: 3}
+      weight: 0.3
+    level: 0.4
+    chance: 0.3
+  - tilePrefabs:
+    - prefab: {fileID: 1182779005126925859, guid: 86c0f9b7d97533b4da94854efa96de7b, type: 3}
+      weight: 0.1
+    - prefab: {fileID: 2246744105242797859, guid: c32c947a3d76ef944a279f617fe1d273, type: 3}
+      weight: 0.1
+    - prefab: {fileID: 4478194680167333541, guid: 5cb4405b10ef16441a35f42f2601d57e, type: 3}
+      weight: 0.4
+    - prefab: {fileID: 7149957361489955480, guid: d15d6e3787e42904891f89ab43284ebc, type: 3}
+      weight: 0.3
+    - prefab: {fileID: 4487092055556073937, guid: 80c6da5e80e78164a9c0a919307d95eb, type: 3}
+      weight: 0.3
+    - prefab: {fileID: 9182188049096436942, guid: eb567e29a95144748b16e8690deb692c, type: 3}
+      weight: 0.1
+    - prefab: {fileID: 4465331713021548549, guid: 082fd9df27423f44da8c9a299ea7a2e0, type: 3}
+      weight: 0.1
+    - prefab: {fileID: 4941991353070110821, guid: 5cbbf1cc51f5a934586cf83199404b92, type: 3}
+      weight: 0.2
+    - prefab: {fileID: 6929300567594039840, guid: d62d94853b800e541ac36cec41faeeb1, type: 3}
+      weight: 0.3
+    - prefab: {fileID: 516882929566437966, guid: 00830173a273bc440be8a3fe14cc927e, type: 3}
+      weight: 0.5
+    - prefab: {fileID: 5677368836038115589, guid: fa71cd698890ef04a8c45c0dc83ccbb4, type: 3}
+      weight: 0.5
+    - prefab: {fileID: 6928906448159196213, guid: 453ab113968f33c4896a5d96ec3250db, type: 3}
+      weight: 0.5
+    - prefab: {fileID: 2950990002452928522, guid: cfffae13206def840be9c043759c0096, type: 3}
+      weight: 0.3
+    - prefab: {fileID: 4093264286537325898, guid: 86e4740031a3b1848b53310eee57d606, type: 3}
+      weight: 0.1
+    - prefab: {fileID: 8688388482496070019, guid: 4df2d83c03afe1b46b0c28d19225c0c5, type: 3}
+      weight: 0.2
+    - prefab: {fileID: 3052144614269810662, guid: 0187a4b781e54ee45ae2e530d4f6a8ee, type: 3}
+      weight: 0.3
+    - prefab: {fileID: 3797541867295162690, guid: 09941823cb42479499b5fb8ce542ec09, type: 3}
+      weight: 0.2
+    - prefab: {fileID: 1327645165475335195, guid: 591f8b6be3c380149840805b04e86e5d, type: 3}
+      weight: 0.1
+    - prefab: {fileID: 8361160917283168544, guid: 8ad53be75737f2942aa8c97226650af2, type: 3}
+      weight: 0.1
+    - prefab: {fileID: 4669583713924350269, guid: f05d4ea3ebd7afc4dafa7d1fe4ed47b4, type: 3}
+      weight: 0.2
+    - prefab: {fileID: 7295508003636023608, guid: 747ee2371c5df244698861d71361da65, type: 3}
+      weight: 0.1
+    - prefab: {fileID: 1453473958045876523, guid: 8bd4ce00028f87043ada563001c76b53, type: 3}
+      weight: 0.2
+    - prefab: {fileID: 775341043448815008, guid: 311104581f58ab745bbc131895a5dd2e, type: 3}
+      weight: 0.3
+    - prefab: {fileID: 1664451959696812862, guid: d63c0b7a59303534a8a73a1112370d28, type: 3}
+      weight: 0.3
+    - prefab: {fileID: 6228123238271688874, guid: 11adc426413e3be47afd7089d6bf5a68, type: 3}
+      weight: 0.1
+    - prefab: {fileID: 9211770418548527387, guid: 8e7aa6063750f6b48a2d141454addc8c, type: 3}
+      weight: 0.3
+    - prefab: {fileID: 8041895157158517859, guid: 1100855455989144fa437d500507c8e1, type: 3}
+      weight: 0.2
+    - prefab: {fileID: 7471862230310562057, guid: 21fcf54b140c5f34184c979d1adc5290, type: 3}
+      weight: 0.2
+    level: 0.43
+    chance: 0.1
+  - tilePrefabs:
+    - prefab: {fileID: 6834853055278722987, guid: bd12e03e96470284a805b6d6a6b7c7e2, type: 3}
+      weight: 0.4
+    - prefab: {fileID: 8653555279697748835, guid: 194f655122bcc454f8458889353e7b20, type: 3}
+      weight: 0.3
+    - prefab: {fileID: 5297448998969755017, guid: e5796ccaac55d3b4fab065f1226d3cec, type: 3}
+      weight: 0.1
+    - prefab: {fileID: 5278016622759225061, guid: f7fd8f69b152559419f07887de24cdbd, type: 3}
+      weight: 0.5
+    - prefab: {fileID: 3188240388841519125, guid: 586734554d807f24cb56379ba14bdb11, type: 3}
+      weight: 0.1
+    - prefab: {fileID: 2954139957380262239, guid: 3d40ddab30142b84f9041bef544ef4ec, type: 3}
+      weight: 0.5
+    - prefab: {fileID: 3840598322940813423, guid: e845478b7c6d2c344b8f840a44164e56, type: 3}
+      weight: 0.4
+    - prefab: {fileID: 4414632243999162122, guid: 9f7219ea7e5038944a3b4b8ed8d62a71, type: 3}
+      weight: 0.3
+    - prefab: {fileID: 2665418094486770046, guid: 2a77744a17b06bf4c8a6624d1a5e4528, type: 3}
+      weight: 0.2
+    - prefab: {fileID: 4245905195660118030, guid: e67d1033ddc00154281180994e075359, type: 3}
+      weight: 0.2
+    - prefab: {fileID: 2370573211237053172, guid: 953fcf45c54026d4095ef83e1cac0c7b, type: 3}
+      weight: 0.15
+    - prefab: {fileID: 5962541272715693028, guid: 3ef1db879ffed9e469de2d18d1210885, type: 3}
+      weight: 0.1
+    level: 0.45
+    chance: 0.1
+  - tilePrefabs:
+    - prefab: {fileID: 6571130904243319328, guid: 072c3eac5aa46ff46b94194335f1c4fc, type: 3}
+      weight: 0.1
+    - prefab: {fileID: 8359977693744531871, guid: c323246ebb7a889419f1720797a02329, type: 3}
+      weight: 0.1
+    - prefab: {fileID: 1772723620753331190, guid: 4e5025f9b3218d24a8eca56dd9b73305, type: 3}
+      weight: 0.4
+    - prefab: {fileID: 4721207495525198279, guid: f7d49fb46bfc6c0498adcec9b006eea8, type: 3}
+      weight: 0.3
+    - prefab: {fileID: 4422293685406789263, guid: b79f94dfe5e63dd499ee14d5e757b807, type: 3}
+      weight: 0.3
+    - prefab: {fileID: 2013003629360671726, guid: 3b040164b0dc28747b609ea25fdf7973, type: 3}
+      weight: 0.3
+    level: 0.5
+    chance: 0.3
+  tileSize: 1
+  noiseScale: 80
+  octaves: 4
+  persistence: 0.6
+  lacunarity: 2
+  offset: {x: 0, y: 0}
+  generateOffset: {x: 0, y: 0}
+  seed: 0

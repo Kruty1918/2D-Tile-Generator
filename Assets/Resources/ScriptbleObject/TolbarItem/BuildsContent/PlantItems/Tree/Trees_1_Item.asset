@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 660e089f20029d441bee195bfe764ec1, type: 3}
+  m_Name: Trees_1_Item
+  m_EditorClassIdentifier: 
+  sprite: {fileID: -410189178, guid: e09a1a9faa6c602419579e6fdc2d6f4d, type: 3}
+  patch: Plant/Tree
+  _description: Description
+  _name: Name

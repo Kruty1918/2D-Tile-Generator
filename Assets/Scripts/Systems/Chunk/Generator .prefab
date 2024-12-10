@@ -1,0 +1,130 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7310614791509639840
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7310614791509639846}
+  - component: {fileID: 7310614791509639847}
+  m_Layer: 0
+  m_Name: 'Generator '
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7310614791509639846
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7310614791509639840}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7310614791509639847
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7310614791509639840}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac445069e7d432349afe9a445c5cbdda, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tilePrefabs:
+  - tilePrefabs:
+    - prefab: {fileID: 7878063143828382552, guid: 150a25fc1674ce744b7c7b43cd854f1a, type: 3}
+      texture: {fileID: 2800000, guid: f1ed99678c083b4409d7cb6f672cf41c, type: 3}
+      weight: 1
+    level: 0.1
+    chance: 1
+  - tilePrefabs:
+    - prefab: {fileID: 3877851106577658797, guid: e22eb94a8e873ed4ab732e742f54eda3, type: 3}
+      texture: {fileID: 2800000, guid: 9117b5b415ef69b41a3b19cb9ad545b7, type: 3}
+      weight: 1
+    level: 0.3
+    chance: 1
+  - tilePrefabs:
+    - prefab: {fileID: 804199476088881253, guid: 752964b4d6a3b83419c83530c40a7556, type: 3}
+      texture: {fileID: 2800000, guid: c5977d99d84d66a4988690cd475f70b0, type: 3}
+      weight: 1
+    level: 0.35
+    chance: 1
+  - tilePrefabs:
+    - prefab: {fileID: 5875258017091764031, guid: 7b4992b45f5f37f48b77f1436c7c27b6, type: 3}
+      texture: {fileID: 2800000, guid: 49d3e6cdd47c4304c9081113affdc58b, type: 3}
+      weight: 1
+    level: 0.4
+    chance: 1
+  - tilePrefabs:
+    - prefab: {fileID: 5794738066448864690, guid: 775adc08b9d46d94caf3abe0f2014451, type: 3}
+      texture: {fileID: 2800000, guid: 6c46e40d6e052f044861a7d9722e41cb, type: 3}
+      weight: 0.9
+    - prefab: {fileID: 8090179284428525953, guid: a80b0a5d816061141b30bfadc146b429, type: 3}
+      texture: {fileID: 2800000, guid: 6c46e40d6e052f044861a7d9722e41cb, type: 3}
+      weight: 0.1
+    - prefab: {fileID: 3318602156590169872, guid: 0a4c7c2ec6fa47c438947e5e354808db, type: 3}
+      texture: {fileID: 2800000, guid: 6c46e40d6e052f044861a7d9722e41cb, type: 3}
+      weight: 0.1
+    level: 0.5
+    chance: 1
+  - tilePrefabs:
+    - prefab: {fileID: 7707173006938765325, guid: 3c54c8c23d37c8347a2f7e116cd4b1fe, type: 3}
+      texture: {fileID: 2800000, guid: 61dae704b3a59724aa02c09686088d83, type: 3}
+      weight: 0.9
+    - prefab: {fileID: 8447390442047750650, guid: 7c3b7032798a34546b24bc19a1d153dc, type: 3}
+      texture: {fileID: 2800000, guid: 0ec4bc2ea9433924fb3e7df3bcb03961, type: 3}
+      weight: 0.1
+    - prefab: {fileID: 7537687308324030553, guid: cabadd8f06240c144b71845ebe7022a9, type: 3}
+      texture: {fileID: 2800000, guid: 653fc6067fdd9004ca1097fd7486f747, type: 3}
+      weight: 0.1
+    level: 0.53
+    chance: 1
+  - tilePrefabs:
+    - prefab: {fileID: 5656094430961857868, guid: 7bb8877967252dd4aadd5ab5be34ddea, type: 3}
+      texture: {fileID: 2800000, guid: 752e6cad45c46a84eb452cac3f886e0a, type: 3}
+      weight: 0.7
+    - prefab: {fileID: 8925379075604919545, guid: 27559a6a0a2e95644b6a840bf6f7043f, type: 3}
+      texture: {fileID: 2800000, guid: c7a99e4d06f1f8b4990c433e5f17c848, type: 3}
+      weight: 0.2
+    - prefab: {fileID: 1064041096347173332, guid: 7d28ba8d933c5bf4d88950e66db9907b, type: 3}
+      texture: {fileID: 2800000, guid: ca08d8c7ed8914f4b9a14929400351c7, type: 3}
+      weight: 0.2
+    level: 1
+    chance: 1
+  envPrefabs: []
+  _nms:
+    scale: 50
+    spotMultiplier: 15
+    spotTreschold: 0.307
+    octaves: 4
+    persistence: 1.25
+    lacunarity: 2
+    frequency: 0.3
+    amplitude: 1.49
+    ridged: 2
+    seaLevel: 0.21
+    matericLevel: 0.29
+    smotheFactor: 3.52
+    distortionStrength: 0.2
+    combineNoiseWeight: 0.539
+    warpFactor: 2.6
+    mFactor: 0.6
+    seed: 42
+    offset: {x: 289.83, y: 822.4}
+  minimumValidNoiseCount: 16
+  maximumIterations: 1000
+  minimumValidNoiseValue: 0.5
